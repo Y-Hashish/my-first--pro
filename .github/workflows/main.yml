@@ -12,9 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: 'test bravo6'
-      run: pwd
-    - name: 'test writing'
-      run: echo hashish top 
+      - name: 'test bravo6'
+        run: pwd
+      - name: 'test writing'
+        run: echo hashish top 
   
 	
