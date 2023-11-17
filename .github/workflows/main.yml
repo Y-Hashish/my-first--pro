@@ -3,18 +3,13 @@ on:
     branches:
       - master
 
-
-
-
-
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'test bravo6'
-        run: pwd
-      - name: 'test writing'
-        run: echo hashish top 
-  
-	
+      - name: 'testing git'
+      run: pwd 
+
+      - name: 'testing git'
+      run: echo hashish
